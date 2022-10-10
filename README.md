@@ -30,23 +30,23 @@ Do souboru s kódem aplikace *main.py* je nutné vyplnit cestu k aplikaci wkhtml
 ## 3. Návod k použití
 
 Do adresáře příklady je nutné vložit XML soubor se zadáním příkladů. Vysvětlení elementů:
-* <priklady>: kořenový element sbírky příkladl na dané téma
-* <nazev>: název testu, který bude generován na vrcholu dokumentu se zadáním
-* <uvod>: úvodní text k testu, užitečný jako motivace nebo instrukce pro vyplnění
-* <zaver>: závěrečný text k testu, užitečný jako motivace nebo instrukce pro zaslání testu
-* <priklad skupina=... typ=...>: uvozuje jeden konkrétní příklad, skupina je skupina pro znesnadněné opisování pro vytisknuté zadání na offline hodinu (např. ze školy skupina A, B vedle sebe), typ je typ příkladu (každý student má pak například 2 příklady 1. typu a 3 příklady 2. typu ve svém testu).
-* <zadani>: obsahuje zadání příkladu, které je v místech s dynamickým obsahem označen složenými závorkami s názvem proměnné
-* <promenne>: obsahuje seznam elementů proměnná, místo kterých se mají dynamicky vygenerovat náhodná čísla
-* <znacka>: značka proměnné, která když se shoduje s proměnnou v textu v závorkách, tak se využijí informace této proměnné (jednotka, min, max, desetiny) pro generování náhodného čísla
-* <nazev>: název, který se napíše před hodnotu (nemusí být využit, pokud je název již v textu zadání napevno)
-* <jednotka>: jednotka, která se zapíše za náhodné číslo
-* <min>: nejmenší možná hodnota vygenerované náhodné hodnoty proměnné
-* <max>: největší možná hodnota vygenerované náhodné hodnoty proměnné
-* <desetiny>: na kolik desetinných míst má být náhodná hodnota zaokrouhlena
-* <vysledky>: seznam výsledků, které se mají spočítat a vygenerovat v učitelské verzi
-* <vysledek>: jeden z výsledků, který se spočítá
-* <nazev>: název nebo značka před rovnítkem s výsledkem
-* <vzorec>: vzorec v jazyce Python, který se vyhodnotí a výsledek se napíše za rovnítko
+* **priklady**: kořenový element sbírky příkladl na dané téma
+* **nazev**: název testu, který bude generován na vrcholu dokumentu se zadáním
+* **uvod**: úvodní text k testu, užitečný jako motivace nebo instrukce pro vyplnění
+* **zaver**: závěrečný text k testu, užitečný jako motivace nebo instrukce pro zaslání testu
+* **priklad skupina=... typ=...**: uvozuje jeden konkrétní příklad, skupina je skupina pro znesnadněné opisování pro vytisknuté zadání na offline hodinu (např. ze školy skupina A, B vedle sebe), typ je typ příkladu (každý student má pak například 2 příklady 1. typu a 3 příklady 2. typu ve svém testu).
+* **zadani**: obsahuje zadání příkladu, které je v místech s dynamickým obsahem označen složenými závorkami s názvem proměnné
+* **promenne**: obsahuje seznam elementů proměnná, místo kterých se mají dynamicky vygenerovat náhodná čísla
+* **znacka**: značka proměnné, která když se shoduje s proměnnou v textu v závorkách, tak se využijí informace této proměnné (jednotka, min, max, desetiny) pro generování náhodného čísla
+* **nazev**: název, který se napíše před hodnotu (nemusí být využit, pokud je název již v textu zadání napevno)
+* **jednotka**: jednotka, která se zapíše za náhodné číslo
+* **min**: nejmenší možná hodnota vygenerované náhodné hodnoty proměnné
+* **max**: největší možná hodnota vygenerované náhodné hodnoty proměnné
+* **desetiny**: na kolik desetinných míst má být náhodná hodnota zaokrouhlena
+* **vysledky**: seznam výsledků, které se mají spočítat a vygenerovat v učitelské verzi
+* **vysledek**: jeden z výsledků, který se spočítá
+* **nazev**: název nebo značka před rovnítkem s výsledkem
+* **vzorec**: vzorec v jazyce Python, který se vyhodnotí a výsledek se napíše za rovnítko
 
 Většina nastavení probíhá hned pod vstupním bodem aplikace v souboru *main.py*.
 
