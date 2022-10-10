@@ -27,7 +27,11 @@ Do souboru s kódem aplikace *main.py* je nutné vyplnit cestu k aplikaci wkhtml
 * Windows: PATH_WKHTMLTOPDF = "C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe"
 * MacOS: PATH_WKHTMLTOPDF = "/usr/local/bin/wkhtmltopdf"
 
-## 3. Návod k použití
+## 3. Spuštění aplikace
+
+V aplikaci jsou již předpřipraveny data pro test funkčnosti. Stačí kód spustit dvojklikem na soubor ```main.py``` nebo do terminálu napsat: ```python3 main.py```. Po dokončení kódu by se mělo v adresářích testy a rešení objevit několik PDF, HTML a TXT souborů. 
+
+## 4. Návod k použití
 
 Do adresáře příklady je nutné vložit XML soubor se zadáním příkladů. Vysvětlení elementů:
 * **priklady**: kořenový element sbírky příkladl na dané téma
@@ -71,11 +75,11 @@ Důležité je nastavení v proměnné ```nprikladu_typu```. V této proměnné 
 
 Aplikaci spustíme příkazem v terminálu: ```python main.py``` nebo dvojklikem na soubor ```main.py```.
 
-## 4. Rozbor kódové báze
+## 5. Rozbor kódové báze
 
 bude...
 
-## 5. Poděkování
+## 6. Poděkování
 
 Zatím nikomu :)
 

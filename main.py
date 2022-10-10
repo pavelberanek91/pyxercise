@@ -4,6 +4,7 @@ Created on Thu Oct 15 15:01:50 2020
 
 @author: pberanek91
 """
+import math
 import random
 import os
 from xml.dom import minidom as md
@@ -227,10 +228,10 @@ def vygenerujHTML(data_testu, test_cesta, reseni_cesta, css_cesta):
     html_zadani += zapati
     html_reseni += zapati
     
-    zadani_soubor_html = os.getcwd()+"\\"+test_cesta+data_testu["student"]+".html"
-    reseni_soubor_html = os.getcwd()+"\\"+reseni_cesta+data_testu["student"]+"_reseni.html"
-    zadani_soubor_pdf = os.getcwd()+"\\"+test_cesta+data_testu["student"]+".pdf"
-    reseni_soubor_pdf = os.getcwd()+"\\"+reseni_cesta+data_testu["student"]+"_reseni.pdf"
+    zadani_soubor_html = os.path.join(os.getcwd(),test_cesta+data_testu["student"]+".html")
+    reseni_soubor_html = os.path.join(os.getcwd(),reseni_cesta+data_testu["student"]+"_reseni.html")
+    zadani_soubor_pdf = os.path.join(os.getcwd(),test_cesta+data_testu["student"]+".pdf")
+    reseni_soubor_pdf = os.path.join(os.getcwd(),reseni_cesta+data_testu["student"]+"_reseni.pdf")
     
     if not os.path.exists(test_cesta):
         os.mkdir(test_cesta)
@@ -259,7 +260,7 @@ def main():
     studenti_soubor = "studenti/septima.txt"
     test_cesta = "testy/"
     reseni_cesta = "reseni/"
-    styl_cesta = "stylytestu/styl.css"
+    styl_cesta = "../stylytestu/styl.css"
     nprikladu_typu = [2, 2, 1]
 
     studenti = []
