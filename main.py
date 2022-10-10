@@ -4,12 +4,15 @@ Created on Thu Oct 15 15:01:50 2020
 
 @author: pberanek91
 """
-import math
 import random
 import os
 from xml.dom import minidom as md
 import pdfkit
 import codecs
+
+#tohle je aktualne velky problem
+#PATH_WKHTMLTOPDF = "C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe"
+PATH_WKHTMLTOPDF = "/usr/local/bin/wkhtmltopdf"
 
 #vygeneruje nahodne zadani pro studenta ve dvou verzich - s resenim a bez
 def vygenerujZadani(xmlPath, student, nprikladu_typu):
@@ -241,8 +244,8 @@ def vygenerujHTML(data_testu, test_cesta, reseni_cesta, css_cesta):
     soubor.write(html_reseni)
     soubor.close()
 
-    path_wkthmltopdf = "C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe"
-    config = pdfkit.configuration(wkhtmltopdf = path_wkthmltopdf)
+    #tady problem ... nutne vyresit s pdfkitem at se nemusi nic instalovat do PC
+    config = pdfkit.configuration(wkhtmltopdf = PATH_WKHTMLTOPDF)
     options = {'enable-local-file-access': None}
     pdfkit.from_url(zadani_soubor_html, zadani_soubor_pdf, 
                     configuration=config, options=options)
@@ -252,10 +255,11 @@ def vygenerujHTML(data_testu, test_cesta, reseni_cesta, css_cesta):
 
 def main():
 
-    xmlPath = "priklady\\termika.xml"
-    studenti_soubor = "studenti\\2A.txt"
-    test_cesta = "testy\\"
-    reseni_cesta = "reseni\\"
+    xmlPath = "priklady/termika.xml"
+    studenti_soubor = "studenti/septima.txt"
+    test_cesta = "testy/"
+    reseni_cesta = "reseni/"
+    styl_cesta = "stylytestu/styl.css"
     nprikladu_typu = [2, 2, 1]
 
     studenti = []
@@ -265,7 +269,7 @@ def main():
     for student in studenti:
         data_testu = vygenerujZadani(xmlPath, student, nprikladu_typu)
         vygenerujTXT(data_testu, test_cesta, reseni_cesta)
-        vygenerujHTML(data_testu, test_cesta, reseni_cesta, "styl.css")
+        vygenerujHTML(data_testu, test_cesta, reseni_cesta, styl_cesta)
 
 if __name__ == "__main__":
     main()
