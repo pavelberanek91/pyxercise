@@ -1,0 +1,27 @@
+Test z fyziky: 
+        Termika
+    
+
+Student: Prchlík Matěj
+
+
+        Vítejte na testu z termiky. Odpovědi na test zpracujte libovolnou formou - digitální dokument, ofocený test na papíře, atd. Odpovědi musí být čitelné, jinak nebudou uznány. Test odevzdávate v MS Teams v Zadání, kde naleznete příslušnou odevzdávárnu. V případě technických problémů nebo nejasností mě kontaktujte, jsem po celou dobu online. 
+    
+Pr. 1:
+      Teploměr ukazuje teplotu 95 °F. Převeďte teplotu na K a °C.
+    
+Pr. 2:
+      Led o hmotnosti 18 kg a počáteční teplotě -11 °C se přeměnil na vodu teploty 4.6 °C. Vypočítejte teplo potřebné k zahřátí ledu na teplotu tání (tzn. 0°C) a teplo potřebné k přeměně ledu na vodu při stálé teplotě 0°C
+    
+Pr. 3:
+      Vypočítejte teplo potřebné k roztavení hliníkového předmětu o hmotnosti 45 kg a počáteční teplotě 1 °C.
+    
+Pr. 4:
+      Při smíchání 20 litrů vody 26 °C teplé s 46 litrů vody 79 °C teplé, uniklo do vzduchu 100 kJ tepla. Určete výslednou teplotu vody!
+    
+Pr. 5:
+      Představte si, že vysvětlujete termiku a termodynamiku mladšímu 10 letému sourozenci. Popište tuto teorii populárně naučnou formou. Použijte při popisu následující termíny: energie, teplo, práce, teplota, skupenské teplo, kalorimetrická rovnice, stav systému, termodynamický proces. Hodnotí se plynulé propojení termínů a jednoduchost pochopení. Negativní body získáte za odborné definice a termíny.
+    
+
+        Doufám, že se test povedlo a pokud ne, tak nezoufejte, známka je jen číslo :).
+    

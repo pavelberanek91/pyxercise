@@ -1,0 +1,41 @@
+Test z fyziky: 
+        Termika
+    
+
+Student: Zálešáková Veronika
+
+
+        Vítejte na testu z termiky. Odpovědi na test zpracujte libovolnou formou - digitální dokument, ofocený test na papíře, atd. Odpovědi musí být čitelné, jinak nebudou uznány. Test odevzdávate v MS Teams v Zadání, kde naleznete příslušnou odevzdávárnu. V případě technických problémů nebo nejasností mě kontaktujte, jsem po celou dobu online. 
+    
+Pr. 1:
+      Dřevěná kostka o hmotnosti 15 kg je vržena rychlostí 81 km/h po drsné vodorovné podložce a vlivem třecí síly se zastaví. O kolik se změní vnitřní energie soustavy kostky a podložky, pokud pohybová energie se přeměnila na vnitřní energii této soustavy?
+    
+dU = 3796.875
+
+
+Pr. 2:
+      Železné kladivo o hmotnosti 492 g necháme dopadnout na železnou kovadlinu z výšky 193 cm 84 krát. Jak se změní vnitřní energie soustavy kladivo a kovadlina?
+    
+dU = 782.4754224000001
+
+
+Pr. 3:
+      Vypočítejte teplo potřebné k roztavení hliníkového předmětu o hmotnosti 29 kg a počáteční teplotě 10 °C.
+    
+Q = 28489600
+
+
+Pr. 4:
+      Jaká musí být nejmenší rychlost olověné koule, aby se při nárazu na ocelovou desku celá roztála? Teplota koule před nárazem byla 190 °C. ( Ttání = 327°C, lt = 22600 J/kg, c = 125 J/kg.K)
+    
+v = 281.8687637891081
+
+
+Pr. 5:
+      Představte si, že vysvětlujete termiku a termodynamiku mladšímu 10 letému sourozenci. Popište tuto teorii populárně naučnou formou. Použijte při popisu následující termíny: energie, teplo, práce, teplota, skupenské teplo, kalorimetrická rovnice, stav systému, termodynamický proces. Hodnotí se plynulé propojení termínů a jednoduchost pochopení. Negativní body získáte za odborné definice a termíny.
+    
+
+
+
+        Doufám, že se test povedlo a pokud ne, tak nezoufejte, známka je jen číslo :).
+    

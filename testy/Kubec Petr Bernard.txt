@@ -1,0 +1,21 @@
+Test z fyziky: 
+        Výboje, elektrolyty a polovodiče.
+    
+
+Student: Kubec Petr Bernard
+
+
+        Vítejte na testu z elektrického proudu v polovodičích, kapalynách a plynech. Odpovědi na test zpracujte libovolnou formou - digitální dokument, ofocený test na papíře, atd. Odpovědi musí být čitelné, jinak nebudou uznány. Test odevzdávate v MS Teams v Zadání, kde naleznete příslušnou odevzdávárnu. V případě technických problémů nebo nejasností mě kontaktujte, jsem po celou dobu online. 
+    
+Pr. 1:
+      Dálniční úsek má délku 99 km. Největší povolená rychlost je 179 km/h. Řidič tento úsek prošel za 90 min. O kolik překročil nebo mu chybělo do překročení nejvyšší povolené rychlosti?
+    
+Pr. 2:
+      Při rychlém brždění může auto dosáhnout záporné zrychlení (zpoždění) -4.6 m/s2. Za jaký čas zastaví, mělo-li počáteční rychlost 75 km/h?
+    
+Pr. 3:
+      Šachta je hluboká 673 m. Jak dlouho v ní bude padat volně puštěný kámen, je-li g = 9.81 m/s2?
+    
+
+        Doufám, že se test povedlo a pokud ne, tak nezoufejte, známka je jen číslo :).
+    

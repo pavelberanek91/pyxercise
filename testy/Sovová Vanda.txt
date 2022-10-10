@@ -1,0 +1,21 @@
+Test z fyziky: 
+        Výboje, elektrolyty a polovodiče.
+    
+
+Student: Sovová Vanda
+
+
+        Vítejte na testu z elektrického proudu v polovodičích, kapalynách a plynech. Odpovědi na test zpracujte libovolnou formou - digitální dokument, ofocený test na papíře, atd. Odpovědi musí být čitelné, jinak nebudou uznány. Test odevzdávate v MS Teams v Zadání, kde naleznete příslušnou odevzdávárnu. V případě technických problémů nebo nejasností mě kontaktujte, jsem po celou dobu online. 
+    
+Pr. 1:
+      Automobilista prošel první třetinu dráhy s stálou rychlostí v1, další dvě třetiny rychlostí 105 km/h. Průměrná rychlost v byla 37 km/h. Kolik je v1?
+    
+Pr. 2:
+      Automobil dosáhne rovnoměrným zrychlením za 10 s z klidu rychlost 148 km/h. Jakou dráhu při rozjezdu dosáhne?
+    
+Pr. 3:
+      Šachta je hluboká 224 m. Jak dlouho v ní bude padat volně puštěný kámen, je-li g = 9.81 m/s2?
+    
+
+        Doufám, že se test povedlo a pokud ne, tak nezoufejte, známka je jen číslo :).
+    

@@ -1,0 +1,21 @@
+Test z fyziky: 
+        Výboje, elektrolyty a polovodiče.
+    
+
+Student: Šebl Radim
+
+
+        Vítejte na testu z elektrického proudu v polovodičích, kapalynách a plynech. Odpovědi na test zpracujte libovolnou formou - digitální dokument, ofocený test na papíře, atd. Odpovědi musí být čitelné, jinak nebudou uznány. Test odevzdávate v MS Teams v Zadání, kde naleznete příslušnou odevzdávárnu. V případě technických problémů nebo nejasností mě kontaktujte, jsem po celou dobu online. 
+    
+Pr. 1:
+      Automobilista prošel první třetinu dráhy s stálou rychlostí v1, další dvě třetiny rychlostí 111 km/h. Průměrná rychlost v byla 41 km/h. Kolik je v1?
+    
+Pr. 2:
+      Při rychlém brždění může auto dosáhnout záporné zrychlení (zpoždění) -6.3 m/s2. Za jaký čas zastaví, mělo-li počáteční rychlost 102 km/h?
+    
+Pr. 3:
+      Za jakou dobu nabude volně padající těleso rychlosti 158 m/s v poli g = 9.81 m/s2?
+    
+
+        Doufám, že se test povedlo a pokud ne, tak nezoufejte, známka je jen číslo :).
+    

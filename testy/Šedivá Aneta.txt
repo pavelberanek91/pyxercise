@@ -1,0 +1,21 @@
+Test z fyziky: 
+        Výboje, elektrolyty a polovodiče.
+    
+
+Student: Šedivá Aneta
+
+
+        Vítejte na testu z elektrického proudu v polovodičích, kapalynách a plynech. Odpovědi na test zpracujte libovolnou formou - digitální dokument, ofocený test na papíře, atd. Odpovědi musí být čitelné, jinak nebudou uznány. Test odevzdávate v MS Teams v Zadání, kde naleznete příslušnou odevzdávárnu. V případě technických problémů nebo nejasností mě kontaktujte, jsem po celou dobu online. 
+    
+Pr. 1:
+      Na dovolenou jedete autem po dálnici 98 min rychlostí 166 km/h, potom na 274 min zastavíte. Dále už pokračujete 118 min jízdy stálou rychlostí 157 km/h až do cíle. Určete průměrnou rychlost cestování.
+    
+Pr. 2:
+      Strojvůdce zastavil vlak za 18 s a urazil dráhu 382 m. Jak velká byla původní rychlost?
+    
+Pr. 3:
+      Volně padající těleso má v bodě A rychlost 2 m/s, v níže položeném bodě B rychlost 13.5 m/s. Jaká je vzdálenost bodů AB v poli g = 9.81 m/s2?
+    
+
+        Doufám, že se test povedlo a pokud ne, tak nezoufejte, známka je jen číslo :).
+    

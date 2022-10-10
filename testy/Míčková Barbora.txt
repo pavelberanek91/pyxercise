@@ -1,0 +1,27 @@
+Test z fyziky: 
+        Termika
+    
+
+Student: Míčková Barbora
+
+
+        Vítejte na testu z termiky. Odpovědi na test zpracujte libovolnou formou - digitální dokument, ofocený test na papíře, atd. Odpovědi musí být čitelné, jinak nebudou uznány. Test odevzdávate v MS Teams v Zadání, kde naleznete příslušnou odevzdávárnu. V případě technických problémů nebo nejasností mě kontaktujte, jsem po celou dobu online. 
+    
+Pr. 1:
+      Železné kladivo o hmotnosti 199 g necháme dopadnout na železnou kovadlinu z výšky 22 cm 68 krát. Jak se změní vnitřní energie soustavy kladivo a kovadlina?
+    
+Pr. 2:
+      K ochlazení nápojů byly v přenosné plastové nádobě použity kostky ledu o celkové hmotnosti 8.2 kg a teplotě 0°C. Jaké teplo přijal led od nápojů, jestliže všechen roztál na vodu o teplotě 0°C?
+    
+Pr. 3:
+      Do vody o hmotnosti 3.4 kg a teplotou 9 °C byl vložen ocelový váleček s hmotností 0.9 kg s teplotou 275 °C. Jaké bude výsledná teplota vody a válečku po dosažení rovnovážného stavu.
+    
+Pr. 4:
+      Led o hmotnosti 100 g a teplotě -12 °C vložíme do nádoby s vodou o hmotnosti 1379 g a teplotě 89 °C. Určete teplotu látky v nádobě po dosažení rovnovážného stavu. (Tepelnou kapacitu nádoby a ztráty energie do okolí zanedbejte.)
+    
+Pr. 5:
+      Představte si, že vysvětlujete termiku a termodynamiku mladšímu 10 letému sourozenci. Popište tuto teorii populárně naučnou formou. Použijte při popisu následující termíny: energie, teplo, práce, teplota, skupenské teplo, kalorimetrická rovnice, stav systému, termodynamický proces. Hodnotí se plynulé propojení termínů a jednoduchost pochopení. Negativní body získáte za odborné definice a termíny.
+    
+
+        Doufám, že se test povedlo a pokud ne, tak nezoufejte, známka je jen číslo :).
+    

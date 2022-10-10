@@ -1,0 +1,41 @@
+Test z fyziky: 
+        Termika
+    
+
+Student: Vaňková Tereza
+
+
+        Vítejte na testu z termiky. Odpovědi na test zpracujte libovolnou formou - digitální dokument, ofocený test na papíře, atd. Odpovědi musí být čitelné, jinak nebudou uznány. Test odevzdávate v MS Teams v Zadání, kde naleznete příslušnou odevzdávárnu. V případě technických problémů nebo nejasností mě kontaktujte, jsem po celou dobu online. 
+    
+Pr. 1:
+      K ochlazení nápojů byly v přenosné plastové nádobě použity kostky ledu o celkové hmotnosti 8.4 kg a teplotě 0°C. Jaké teplo přijal led od nápojů, jestliže všechen roztál na vodu o teplotě 0°C?
+    
+L = 2805600
+
+
+Pr. 2:
+      Vodu o hmotnosti 2.2 kg a teplotě 31 °C jsme původně chtěli na vařiči ohřát na teplotu 100 °C. Protože jsme ale vařič zapomněli vypnout, všechna voda se vypařila (přeměnila se na páru o teplotě 100 °C). Kolik energie jsme spotřebovali navíc?.
+    
+L = 4972000
+
+
+Pr. 3:
+      Při smíchání 26 litrů vody 11 °C teplé s 43 litrů vody 80 °C teplé, uniklo do vzduchu 100 kJ tepla. Určete výslednou teplotu vody!
+    
+T = 53.99965328340615
+
+
+Pr. 4:
+      Do vody o hmotnosti 5 kg a teplotou 17 °C byl vložen ocelový váleček s hmotností 1.1 kg s teplotou 236 °C. Jaké bude výsledná teplota vody a válečku po dosažení rovnovážného stavu.
+    
+T = 22.08883405305367
+
+
+Pr. 5:
+      Představte si, že vysvětlujete termiku a termodynamiku mladšímu 10 letému sourozenci. Popište tuto teorii populárně naučnou formou. Použijte při popisu následující termíny: energie, teplo, práce, teplota, skupenské teplo, kalorimetrická rovnice, stav systému, termodynamický proces. Hodnotí se plynulé propojení termínů a jednoduchost pochopení. Negativní body získáte za odborné definice a termíny.
+    
+
+
+
+        Doufám, že se test povedlo a pokud ne, tak nezoufejte, známka je jen číslo :).
+    

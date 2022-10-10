@@ -1,0 +1,41 @@
+Test z fyziky: 
+        Termika
+    
+
+Student: Hrnčířová Hana
+
+
+        Vítejte na testu z termiky. Odpovědi na test zpracujte libovolnou formou - digitální dokument, ofocený test na papíře, atd. Odpovědi musí být čitelné, jinak nebudou uznány. Test odevzdávate v MS Teams v Zadání, kde naleznete příslušnou odevzdávárnu. V případě technických problémů nebo nejasností mě kontaktujte, jsem po celou dobu online. 
+    
+Pr. 1:
+      Voda o hmotnosti 807 g zvýšila svoji teplotu z 28 °C na 83 °C. Jak se změnila její vnitřní energie?
+    
+dU = 185529.30000000002
+
+
+Pr. 2:
+      Železné kladivo o hmotnosti 439 g necháme dopadnout na železnou kovadlinu z výšky 88 cm 91 krát. Jak se změní vnitřní energie soustavy kladivo a kovadlina?
+    
+dU = 344.8717272
+
+
+Pr. 3:
+      Vypočítejte teplo potřebné k roztavení hliníkového předmětu o hmotnosti 9 kg a počáteční teplotě 49 °C.
+    
+Q = 8527104
+
+
+Pr. 4:
+      Při smíchání 27 litrů vody 9 °C teplé s 62 litrů vody 84 °C teplé, uniklo do vzduchu 100 kJ tepla. Určete výslednou teplotu vody!
+    
+T = 61.24692220848341
+
+
+Pr. 5:
+      Představte si, že vysvětlujete termiku a termodynamiku mladšímu 10 letému sourozenci. Popište tuto teorii populárně naučnou formou. Použijte při popisu následující termíny: energie, teplo, práce, teplota, skupenské teplo, kalorimetrická rovnice, stav systému, termodynamický proces. Hodnotí se plynulé propojení termínů a jednoduchost pochopení. Negativní body získáte za odborné definice a termíny.
+    
+
+
+
+        Doufám, že se test povedlo a pokud ne, tak nezoufejte, známka je jen číslo :).
+    

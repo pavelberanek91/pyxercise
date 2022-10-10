@@ -1,0 +1,21 @@
+Test z fyziky: 
+        Výboje, elektrolyty a polovodiče.
+    
+
+Student: Lachman Tomáš
+
+
+        Vítejte na testu z elektrického proudu v polovodičích, kapalynách a plynech. Odpovědi na test zpracujte libovolnou formou - digitální dokument, ofocený test na papíře, atd. Odpovědi musí být čitelné, jinak nebudou uznány. Test odevzdávate v MS Teams v Zadání, kde naleznete příslušnou odevzdávárnu. V případě technických problémů nebo nejasností mě kontaktujte, jsem po celou dobu online. 
+    
+Pr. 1:
+      Plavec, jehož rychlost vzhledem k vodě je 1.1 m/s, plave v řece, v níž voda teče rychlostí 0.3 m/s. Určete čas, za který dopluje z místa A do B, vzdáleného 95 m, pokud plave proti proudu.
+    
+Pr. 2:
+      Strojvůdce zastavil vlak za 19 s a urazil dráhu 330 m. Jak velká byla původní rychlost?
+    
+Pr. 3:
+      Z jaké výšky padalo těleso volným pádem (g = 9.81 m/s2), jestliže dopadlo na zem rychlostí 151 km/h?
+    
+
+        Doufám, že se test povedlo a pokud ne, tak nezoufejte, známka je jen číslo :).
+    

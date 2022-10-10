@@ -1,0 +1,27 @@
+Test z fyziky: 
+        Termika
+    
+
+Student: Landa Jaroslav
+
+
+        Vítejte na testu z termiky. Odpovědi na test zpracujte libovolnou formou - digitální dokument, ofocený test na papíře, atd. Odpovědi musí být čitelné, jinak nebudou uznány. Test odevzdávate v MS Teams v Zadání, kde naleznete příslušnou odevzdávárnu. V případě technických problémů nebo nejasností mě kontaktujte, jsem po celou dobu online. 
+    
+Pr. 1:
+      Voda o hmotnosti 1730 g zvýšila svoji teplotu z 28 °C na 53 °C. Jak se změnila její vnitřní energie?
+    
+Pr. 2:
+      Bazén má délku 9 m, šířku 4 m, hloubku 4 m a je po okraj naplněn vodou. Teplota vody v bazénu klesla z večerních 35 °C na ranních 9 °C. Jaké teplo odevzdala voda okolí během noci?
+    
+Pr. 3:
+      Do vody o hmotnosti 7.6 kg a teplotou 18 °C byl vložen ocelový váleček s hmotností 1.5 kg s teplotou 236 °C. Jaké bude výsledná teplota vody a válečku po dosažení rovnovážného stavu.
+    
+Pr. 4:
+      Hliníkový váleček o hmotnosti 876 g a teplotě 115 °C byl vložen do vody o hmotnosti 6 kg a teplotě 18 °C. Jaká bude výsledná teplota lázně po dosažení tepelné rovnováhy? (Tepelné ztráty zanedbáváme).
+    
+Pr. 5:
+      Představte si, že vysvětlujete termiku a termodynamiku mladšímu 10 letému sourozenci. Popište tuto teorii populárně naučnou formou. Použijte při popisu následující termíny: energie, teplo, práce, teplota, skupenské teplo, kalorimetrická rovnice, stav systému, termodynamický proces. Hodnotí se plynulé propojení termínů a jednoduchost pochopení. Negativní body získáte za odborné definice a termíny.
+    
+
+        Doufám, že se test povedlo a pokud ne, tak nezoufejte, známka je jen číslo :).
+    

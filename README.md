@@ -1,2 +1,3 @@
-# pyxercise
+# Pyxercise
+
 Python exercise generator
