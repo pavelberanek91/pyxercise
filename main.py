@@ -4,16 +4,15 @@ Created on Thu Oct 15 15:01:50 2020
 
 @author: pberanek91
 """
+
 import math
 import random
-import os
-from xml.dom import minidom as md
-import pdfkit
 import codecs
+from xml.dom import minidom as md
 
-#tohle je aktualne velky problem
-#PATH_WKHTMLTOPDF = "C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe"
-PATH_WKHTMLTOPDF = "/usr/local/bin/wkhtmltopdf"
+from src.generators.txtgenerator import TxtGenerator
+from src.generators.htmlgenerator import HtmlGenerator
+from src.generators.pdfgenerator import PdfGenerator
 
 #vygeneruje nahodne zadani pro studenta ve dvou verzich - s resenim a bez
 def vygenerujZadani(xmlPath, student, nprikladu_typu):
@@ -161,98 +160,6 @@ def upravaZadani(zadani):
 
     return zadani
 
-#vygeneruje zadani a reseni testu do souboru typu .txt
-def vygenerujTXT(data_testu, test_cesta, reseni_cesta):
-
-    if not os.path.exists(test_cesta):
-        os.mkdir(test_cesta)
-    soubor = codecs.open(test_cesta+data_testu["student"]+".txt", 
-                         "w", encoding = "utf-8")    
-    soubor.write("Test z fyziky: {}\n\n".format(data_testu["nazev"]))
-    soubor.write("Student: {}\n\n".format(data_testu["student"]))  
-    soubor.write(data_testu["uvod"] + "\n")
-    for izadani, zadani in enumerate(data_testu["zadani"]):
-        soubor.write("Pr. "+str(izadani+1)+":")
-        soubor.write(zadani+"\n")
-    soubor.write(data_testu["zaver"] + "\n")
-    soubor.close()
-
-    if not os.path.exists(reseni_cesta):
-        os.mkdir(reseni_cesta)
-    soubor = codecs.open(reseni_cesta+data_testu["student"]+"_reseni.txt", 
-                         "w", encoding = "utf-8")
-    soubor.write("Test z fyziky: {}\n\n".format(data_testu["nazev"]))
-    soubor.write("Student: {}\n\n".format(data_testu["student"]))
-    soubor.write(data_testu["uvod"] + "\n")
-    for ireseni, reseni in enumerate(data_testu["reseni"]):
-        soubor.write("Pr. "+str(ireseni+1)+":")
-        soubor.write(reseni+"\n")
-    soubor.write(data_testu["zaver"] + "\n")
-    soubor.close()
-
-
-#vygeneruje zadani a reseni testu do souboru typu .html
-def vygenerujHTML(data_testu, test_cesta, reseni_cesta, css_cesta):
-
-    hlavicka = "<!DOCTYPE html>\n<html>\n<head>\n"
-    css_link = '<link rel="stylesheet" href="' + css_cesta + '">\n'
-    title = "<title>Fyzika Test</title>\n"
-    meta_charset = '<meta charset="utf-8">\n'
-    body_start = "</head>\n<body>\n"
-    zapati = "</body>\n</html>"
-
-    html_zahlavi = "<h1>Test z fyziky: " + data_testu["nazev"] + "</h1>"     
-    html_student = "<h2>Student: "+data_testu["student"]+"</h2>\n"
-    
-    html_uvod = '<p id="uvod">'+ data_testu["uvod"] +'</p>'
-    html_zaver = '<hr>\n<p id="zaver">'+ data_testu["zaver"] +'</p>'
-    
-    html_zadani = hlavicka + css_link + title + meta_charset + body_start
-    html_zadani += html_zahlavi
-    html_zadani += html_student
-    html_zadani += html_uvod
-    html_reseni = html_zadani
-    
-    for izadani, zadani in enumerate(data_testu["zadani"]):
-        html_zadani += "<hr>"
-        html_zadani += "<h3>Příklad: "+str(izadani+1)+"</h3>\n"
-        html_zadani += "<p>"+zadani.replace("\n","<br>")+"</p>\n"
-    
-    for ireseni, reseni in enumerate(data_testu["reseni"]):
-        html_reseni += "<hr>"
-        html_reseni += "<h3>Příklad: "+str(ireseni+1)+"</h3>\n"
-        html_reseni += "<p>"+reseni.replace("\n","<br>")+"</p>\n" 
-        
-    html_zadani += html_zaver
-    html_reseni += html_zaver
-    html_zadani += zapati
-    html_reseni += zapati
-    
-    zadani_soubor_html = os.path.join(os.getcwd(),test_cesta+data_testu["student"]+".html")
-    reseni_soubor_html = os.path.join(os.getcwd(),reseni_cesta+data_testu["student"]+"_reseni.html")
-    zadani_soubor_pdf = os.path.join(os.getcwd(),test_cesta+data_testu["student"]+".pdf")
-    reseni_soubor_pdf = os.path.join(os.getcwd(),reseni_cesta+data_testu["student"]+"_reseni.pdf")
-    
-    if not os.path.exists(test_cesta):
-        os.mkdir(test_cesta)
-    soubor = codecs.open(zadani_soubor_html, "w", encoding="utf8")
-    soubor.write(html_zadani)
-    soubor.close()
-
-    if not os.path.exists(reseni_cesta):
-        os.mkdir(reseni_cesta)
-    soubor = open(reseni_soubor_html, "w", encoding="utf8")
-    soubor.write(html_reseni)
-    soubor.close()
-
-    #tady problem ... nutne vyresit s pdfkitem at se nemusi nic instalovat do PC
-    config = pdfkit.configuration(wkhtmltopdf = PATH_WKHTMLTOPDF)
-    options = {'enable-local-file-access': None}
-    pdfkit.from_url(zadani_soubor_html, zadani_soubor_pdf, 
-                    configuration=config, options=options)
-    pdfkit.from_url(reseni_soubor_html, reseni_soubor_pdf, 
-                    configuration=config, options=options)
-
 
 def main():
 
@@ -269,8 +176,14 @@ def main():
 
     for student in studenti:
         data_testu = vygenerujZadani(xmlPath, student, nprikladu_typu)
-        vygenerujTXT(data_testu, test_cesta, reseni_cesta)
-        vygenerujHTML(data_testu, test_cesta, reseni_cesta, styl_cesta)
+        pdf_generator = PdfGenerator(
+            exercise_data=data_testu,
+            test_folder=test_cesta,
+            solution_folder=reseni_cesta,
+            style_file=styl_cesta
+        )
+        pdf_generator.generate_file('test')
+        pdf_generator.generate_file('solution')
 
 if __name__ == "__main__":
     main()
